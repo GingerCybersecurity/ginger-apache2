@@ -48,7 +48,7 @@ files:
 # httpd.exp is normally under /usr/lib/apache2/modules/ but the instructions
 # mv it from there to /tmp so the bulk copy above works
 - source: '/tmp/httpd.exp'
-  destination: '/lib/apache2/modules/'
+  destination: '/lib/apache2/modules/httpd.exp'
   uid: 10
   permissions: 0o400
 
